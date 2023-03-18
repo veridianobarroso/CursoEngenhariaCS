@@ -1,39 +1,72 @@
-﻿namespace System;
+﻿using CursoEngenhariaCS;
+namespace System;
 
 public class Program {
     // svm
     public static void Main()
     {
-        string? nome;
-        int Idade;
-        double Altura, resultado,Peso;
+        // Conta conta = new Conta();
+        // conta.Deposita(50);
+        // System.Console.WriteLine($"Saldo: {conta.Saldo}");
+        // conta.Saca(10);
+        // System.Console.WriteLine($"Saldo: {conta.Saldo}");
+        
+        Especial especial = new Especial();
+        especial.Deposita(100);
+        System.Console.WriteLine($"Saldo: {especial.Saldo}");
+        especial.Saca(5);
+        System.Console.WriteLine($"Saldo: {especial.Saldo}");
+        
 
-        double IMC (int idade, double altura, double peso) {
-            double calculo;
-            calculo = peso / (altura * altura); 
-            return calculo;
-        }
+        // Pista pista = new Pista();
+        // pista.Id = 1;
+        // pista.Clima = "Chuva";
+        
+
+        // Treino treino = new Treino();
+        // treino.Id = 2;
+        // treino.Clima = "Sol";
+        // treino.barreiras = 4;
+
+        // Carro carro = new Carro();
+        // carro.Id = 1;
+        // carro.Nome = "Ferrari";
+        // carro.VeloxMax = 300;
+        // System.Console.WriteLine($"{carro.VeloxMax}" );
+        // carro.Alterar(120);
+        // System.Console.WriteLine($" nova {carro.VeloxMax}" );
+        
+
+//         string? nome;
+//         int Idade;
+//         double Altura, resultado,Peso;
+
+//         double IMC (int idade, double altura, double peso) {
+//             double calculo;
+//             calculo = peso / (altura * altura); 
+//             return calculo;
+//         }
 
         
-        System.Console.WriteLine("Digite seu nome: ");
-        nome = Console.ReadLine();
-        System.Console.WriteLine("Digite sua idade: ");    
-        Idade = Convert.ToInt32(Console.ReadLine());
+//         System.Console.WriteLine("Digite seu nome: ");
+//         nome = Console.ReadLine();
+//         System.Console.WriteLine("Digite sua idade: ");    
+//         Idade = Convert.ToInt32(Console.ReadLine());
         
-        System.Console.WriteLine("Digite sua altura: ");    
-        Altura = Convert.ToDouble(Console.ReadLine());
+//         System.Console.WriteLine("Digite sua altura: ");    
+//         Altura = Convert.ToDouble(Console.ReadLine());
 
-        System.Console.WriteLine("Digite seu peso: ");    
-        Peso = Convert.ToDouble(Console.ReadLine());
+//         System.Console.WriteLine("Digite seu peso: ");    
+//         Peso = Convert.ToDouble(Console.ReadLine());
 
-        resultado = IMC(Idade, Altura, Peso);
-System.Console.WriteLine("resultado -> " + resultado);
-System.Console.WriteLine($"seu nome {nome} e resultado -> {resultado}");       
-        if(resultado <= 30){
-            System.Console.WriteLine("normal");
-        }else if( resultado >30){
-            System.Console.WriteLine("obesidade");
-        }
+//         resultado = IMC(Idade, Altura, Peso);
+// System.Console.WriteLine("resultado -> " + resultado);
+// System.Console.WriteLine($"seu nome {nome} e resultado -> {resultado}");       
+//         if(resultado <= 30){
+//             System.Console.WriteLine("normal");
+//         }else if( resultado >30){
+//             System.Console.WriteLine("obesidade");
+//         }
 
 
         
