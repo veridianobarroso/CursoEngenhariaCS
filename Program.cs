@@ -5,17 +5,16 @@ public class Program {
     // svm
     public static void Main()
     {
-        // Conta conta = new Conta();
-        // conta.Deposita(50);
-        // System.Console.WriteLine($"Saldo: {conta.Saldo}");
-        // conta.Saca(10);
-        // System.Console.WriteLine($"Saldo: {conta.Saldo}");
+        Conta conta = new Conta();
+        conta.Deposita(50.00);
+        conta.Saca(10.90 , 2);
+        conta.Saca(7.50);
         
-        Especial especial = new Especial();
-        especial.Deposita(100);
-        System.Console.WriteLine($"Saldo: {especial.Saldo}");
-        especial.Saca(5);
-        System.Console.WriteLine($"Saldo: {especial.Saldo}");
+        //Especial especial = new Especial();
+        //especial.Deposita(100);
+        //System.Console.WriteLine($"Saldo: {especial.Saldo}");
+        //especial.Saca(5);
+        //System.Console.WriteLine($"Saldo: {especial.Saldo}");
         
 
         // Pista pista = new Pista();
