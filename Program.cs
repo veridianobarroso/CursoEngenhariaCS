@@ -1,39 +1,84 @@
 ﻿using CursoEngenhariaCS;
+using CursoEngenhariaCS.files;
+
 namespace System;
 
 public class Program {
     // svm
     public static void Main()
     {
-        Conta conta = new Conta();
-        conta.Deposita(50.00);
-        conta.Saca(10.90 , 2);
-        conta.Saca(7.50);
-        
-        //Especial especial = new Especial();
-        //especial.Deposita(100);
-        //System.Console.WriteLine($"Saldo: {especial.Saldo}");
-        //especial.Saca(5);
-        //System.Console.WriteLine($"Saldo: {especial.Saldo}");
+     Conta conta = new Conta();
+     conta.Deposita(50.00);
+     conta.Saca(10.90 , 2);
+     conta.Saca(7.50);
+
+    //Especial especial = new Especial();
+    //especial.Deposita(100);
+    //System.Console.WriteLine($"Saldo: {especial.Saldo}");
+    //especial.Saca(5);
+    //System.Console.WriteLine($"Saldo: {especial.Saldo}");
+    
+    // INTERFACES
+
+    // //Calculadora calc = new Calculadora();
+    //  System.Console.WriteLine("Soma1 -> "+calc.Somar(10,5));
+    //  System.Console.WriteLine("Soma2 -> "+calc.Somar(10, 5, 3));
+    //  System.Console.WriteLine("Multiplicar -> "+calc.Multiplicar(10,5));
+
+   
         
 
-        // Pista pista = new Pista();
-        // pista.Id = 1;
-        // pista.Clima = "Chuva";
-        
+    // // A palavra-chave var instrui o compilador para deduzir
+    // // o tipo da variável da expressão no lado direito da instrução de inicialização.
+    // var caminho = "C:\\MeuDiretorio";
 
-        // Treino treino = new Treino();
-        // treino.Id = 2;
-        // treino.Clima = "Sol";
-        // treino.barreiras = 4;
+    // // Definição de caminhos para trabalharmos com arquivo
+    // // Operações com arquivos utilizando o nosso FileHelper
+    // FileHelper helper = new FileHelper(caminho);
 
-        // Carro carro = new Carro();
-        // carro.Id = 1;
-        // carro.Nome = "Ferrari";
-        // carro.VeloxMax = 300;
-        // System.Console.WriteLine($"{carro.VeloxMax}" );
-        // carro.Alterar(120);
-        // System.Console.WriteLine($" nova {carro.VeloxMax}" );
+    // //helper.ListarDiretorios(caminho);
+    // //helper.ListarArquivosDiretorios(caminho);
+    
+    // var caminhoPathCombine = Path.Combine(caminho, "Teste de Pasta");
+    
+    // //helper.CriarDiretorio(caminhoPathCombine);
+    // //helper.ApagarDiretorio(caminhoPathCombine, true);
+
+    // var caminhoArquivo = Path.Combine(caminho, "arquivo-teste.txt");
+    // helper.CriarArquivoTexto(caminhoArquivo, "Olá! Teste de escrita de arquivo");
+
+    // // Linhas para serem escritas no arquivo
+    // var listaString = new List<string> { "Linha 1", "Linha 2", "Linha 3" };
+    // var caminhoArquivo2 = Path.Combine(caminho, "arquivo-teste-stream2.txt");
+    // helper.CriarArquivoTextoStream(caminhoArquivo2, listaString);
+
+    // var listaStringContinuacao = new List<string> { "Linha 4", "Linha 5", "Linha 6" };
+    // helper.AdicionarTextoStream(caminhoArquivo2, listaStringContinuacao);
+    
+    // var caminhoArquivoLeitura = Path.Combine(caminho, "arquivo-teste.txt");
+    // //helper.LerArquivoStream(caminhoArquivoLeitura);
+
+    // helper.DeletarArquivo(caminhoArquivoLeitura);
+
+    // // FIM MANIPULAÇÃO DE ARQUIVOS 
+
+    // Pista pista = new Pista();
+    // pista.Id = 1;
+    // pista.Clima = "Chuva";
+
+
+    // Treino treino = new Treino();
+    // treino.Id = 2;
+    // treino.Clima = "Sol";
+    // treino.barreiras = 4;
+
+    // Carro carro = new Carro();
+    // carro.Id = 1;
+    // carro.Nome = "Ferrari";
+    // carro.VeloxMax = 300;
+    // System.Console.WriteLine($"{carro.VeloxMax}" );
+    // carro.Alterar(120);
+    // System.Console.WriteLine($" nova {carro.VeloxMax}" );
         
 
 //         string? nome;
