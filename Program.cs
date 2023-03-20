@@ -1,5 +1,6 @@
 ﻿using CursoEngenhariaCS;
 using CursoEngenhariaCS.files;
+using CursoEngenhariaCS.interfaces;
 
 namespace System;
 
@@ -7,10 +8,10 @@ public class Program {
     // svm
     public static void Main()
     {
-     Conta conta = new Conta();
-     conta.Deposita(50.00);
-     conta.Saca(10.90 , 2);
-     conta.Saca(7.50);
+    //  Conta conta = new Conta();
+    //  conta.Deposita(50.00);
+    //  conta.Saca(10.90 , 2);
+    //  conta.Saca(7.50);
 
     //Especial especial = new Especial();
     //especial.Deposita(100);
@@ -20,11 +21,10 @@ public class Program {
     
     // INTERFACES
 
-    // //Calculadora calc = new Calculadora();
-    //  System.Console.WriteLine("Soma1 -> "+calc.Somar(10,5));
-    //  System.Console.WriteLine("Soma2 -> "+calc.Somar(10, 5, 3));
-    //  System.Console.WriteLine("Multiplicar -> "+calc.Multiplicar(10,5));
-
+     Calculadora calc = new Calculadora();
+     System.Console.WriteLine("Soma1 -> "+calc.Somar(10,5));
+     System.Console.WriteLine("Soma2 -> "+calc.Somar(10, 5, 3));
+     
    
         
 
