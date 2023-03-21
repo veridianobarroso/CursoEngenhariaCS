@@ -107,7 +107,7 @@ namespace CursoEngenhariaCS.files
         public void DeletarArquivo(string caminho)
         {
             File.Delete(caminho);
-            //System.Console.WriteLine($"Arquivo {caminho} deletado com sucesso!");
+            System.Console.WriteLine($"Arquivo {caminho} deletado com sucesso!");
         }
     }
 }
