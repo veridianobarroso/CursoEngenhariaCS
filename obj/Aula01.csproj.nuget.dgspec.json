@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CursoEngenhariaCS\\Aula01.csproj": {}
+    "/Users/veridiano/Desktop/CursoCSharp/CursoEngenhariaCS/Aula01.csproj": {}
   },
   "projects": {
-    "C:\\CursoEngenhariaCS\\Aula01.csproj": {
+    "/Users/veridiano/Desktop/CursoCSharp/CursoEngenhariaCS/Aula01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CursoEngenhariaCS\\Aula01.csproj",
+        "projectUniqueName": "/Users/veridiano/Desktop/CursoCSharp/CursoEngenhariaCS/Aula01.csproj",
         "projectName": "Aula01",
-        "projectPath": "C:\\CursoEngenhariaCS\\Aula01.csproj",
-        "packagesPath": "C:\\Users\\navet\\.nuget\\packages\\",
-        "outputPath": "C:\\CursoEngenhariaCS\\obj\\",
+        "projectPath": "/Users/veridiano/Desktop/CursoCSharp/CursoEngenhariaCS/Aula01.csproj",
+        "packagesPath": "/Users/veridiano/.nuget/packages/",
+        "outputPath": "/Users/veridiano/Desktop/CursoCSharp/CursoEngenhariaCS/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\navet\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/veridiano/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
