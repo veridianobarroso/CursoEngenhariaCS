@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Gjnb3YdkyZeU/7sEamfLPvKK6xlcv5Ka6z/MD3n4XwrPAVo3ouYCYxuaTzHLugBQCsC8EXoUJEHcSc722C7iCA==",
+  "dgSpecHash": "eAke+sSGQ/76P03rhhvZ9sV7hpz+JtkY0k/nji1ie22ZpJeABXSo449xYk3W9WIGr9dhrFh9HdHQOuSZEP7GLg==",
   "success": true,
   "projectFilePath": "/Users/veridiano/Desktop/CursoCSharp/CursoEngenhariaCS/Aula01.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/veridiano/.nuget/packages/microsoft.netcore.app.runtime.win-x64/7.0.3/microsoft.netcore.app.runtime.win-x64.7.0.3.nupkg.sha512",
+    "/Users/veridiano/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/7.0.3/microsoft.netcore.app.runtime.linux-x64.7.0.3.nupkg.sha512",
+    "/Users/veridiano/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/7.0.3/microsoft.aspnetcore.app.runtime.win-x64.7.0.3.nupkg.sha512",
+    "/Users/veridiano/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/7.0.3/microsoft.aspnetcore.app.runtime.linux-x64.7.0.3.nupkg.sha512",
+    "/Users/veridiano/.nuget/packages/microsoft.netcore.app.host.win-x64/7.0.3/microsoft.netcore.app.host.win-x64.7.0.3.nupkg.sha512",
+    "/Users/veridiano/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.3/microsoft.netcore.app.host.linux-x64.7.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,5 @@
+/Users/veridiano/Desktop/CursoCSharp/CursoEngenhariaCS/bin/Debug/net7.0/publish/Aula01
+/Users/veridiano/Desktop/CursoCSharp/CursoEngenhariaCS/bin/Debug/net7.0/publish/Aula01.dll
+/Users/veridiano/Desktop/CursoCSharp/CursoEngenhariaCS/bin/Debug/net7.0/publish/Aula01.deps.json
+/Users/veridiano/Desktop/CursoCSharp/CursoEngenhariaCS/bin/Debug/net7.0/publish/Aula01.runtimeconfig.json
+/Users/veridiano/Desktop/CursoCSharp/CursoEngenhariaCS/bin/Debug/net7.0/publish/Aula01.pdb
