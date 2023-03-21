@@ -9,6 +9,6 @@ Laboratório de Estatística, Campus Ufac, Rio Branco/AC
 
 dotnet publish --configuration Release
 
-Para executar, vá até a pasta que gerou o arquivo, por exemplo ˜/CursoCSharp/CursoEngenhariaCS/bin/Debug/net7.0/publish˜ e execute no terminal ./NomeDoArquivo -> Exemplo ˜./Aula01˜
+Para executar, vá até a pasta que gerou o arquivo, por exemplo "/CursoCSharp/CursoEngenhariaCS/bin/Debug/net7.0/publish" e execute no terminal ./NomeDoArquivo -> Exemplo "./Aula01"
 
 Mais informações em: https://learn.microsoft.com/en-us/dotnet/core/tutorials/publishing-with-visual-studio-code?pivots=dotnet-7-0
