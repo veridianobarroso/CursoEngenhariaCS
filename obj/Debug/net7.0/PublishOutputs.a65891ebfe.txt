@@ -1,0 +1,5 @@
+C:\CursoEngenhariaCS\bin\Debug\net7.0\publish\Aula01.exe
+C:\CursoEngenhariaCS\bin\Debug\net7.0\publish\Aula01.dll
+C:\CursoEngenhariaCS\bin\Debug\net7.0\publish\Aula01.deps.json
+C:\CursoEngenhariaCS\bin\Debug\net7.0\publish\Aula01.runtimeconfig.json
+C:\CursoEngenhariaCS\bin\Debug\net7.0\publish\Aula01.pdb

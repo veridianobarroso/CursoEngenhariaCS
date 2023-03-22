@@ -5,11 +5,11 @@ using CursoEngenhariaCS.interfaces;
 namespace System;
 
 public class Program {
-    // svm
-    // public static void Main()
-    // {
-    //     System.Console.WriteLine("Oi isso é um teste.");
-    // }
+     //svm
+     static void Main()
+     {
+         System.Console.WriteLine("Oi isso é um teste.");
+     }
     
     //  Conta conta = new Conta();
     //  conta.Deposita(50.00);

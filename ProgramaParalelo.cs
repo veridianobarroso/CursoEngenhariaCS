@@ -9,23 +9,23 @@ namespace CursoEngenhariaCS
 {
     public class ProgramaParalelo
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Pressione ENTER para iniciar");
-            Console.ReadLine();
+        // static void Main(string[] args)
+        // {
+        //     Console.WriteLine("Pressione ENTER para iniciar");
+        //     Console.ReadLine();
 
-            // Invocar os métodos que vamos executar
-            Parallel.Invoke(
-               new Action(exibirDias),
-               new Action(Aleatorios),
-               new Action(exibirMeses),
-               new Action(exibirCidades)
-            );
+        //     // Invocar os métodos que vamos executar
+        //     Parallel.Invoke(
+        //        new Action(exibirDias),
+        //        new Action(Aleatorios),
+        //        new Action(exibirMeses),
+        //        new Action(exibirCidades)
+        //     );
 
-            // Aguardar a continuação do programa
-            Console.WriteLine("\nO método Main foi encerrado. Tecle Enter");
-            Console.ReadLine();
-        }
+        //     // Aguardar a continuação do programa
+        //     Console.WriteLine("\nO método Main foi encerrado. Tecle Enter");
+        //     Console.ReadLine();
+        // }
 
         static void exibirDias()
         {
