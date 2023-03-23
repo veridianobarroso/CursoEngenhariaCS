@@ -6,10 +6,10 @@ namespace System;
 
 public class Program {
      //svm
-     static void Main()
-     {
-         System.Console.WriteLine("Oi isso é um teste.");
-     }
+    //   static void Main()
+    //   {
+    //       System.Console.WriteLine("Oi isso é um teste.");
+    //   }
     
     //  Conta conta = new Conta();
     //  conta.Deposita(50.00);
